@@ -5,6 +5,7 @@ interface UserProfileByIdParams {
 interface UserProfileByIdProps {
   params: UserProfileByIdParams;
 }
+
 export default function UserProfileById({ params }: UserProfileByIdProps) {
   return (
     <div className="flex h-screen items-center">
